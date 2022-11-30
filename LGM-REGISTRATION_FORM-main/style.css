@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    content:'';
+    position:fixed;
+    background:rgba(0,0,0,0.7) url(glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 1000px;
+    color: aliceblue;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(33, 136, 156);
+    color: white;
+    padding: 1.1rem;
+}
+section {
+    padding: 1rem 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+    color: aliceblue;
+}
+form div {
+    margin-bottom: 0.8rem;
+    color: aliceblue;
+}
+.inputs-labels,.radio-labels {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-right: 1rem;
+    color: aliceblue;
+}
+.inputs {
+    padding: 0.2rem;
+    width: 90%;
+}
+.enroll-btn,.clear-btn {
+    padding: 0.5rem 1rem;
+    background-color: rgb(235, 186, 25);
+    border: none;
+    color: rgb(135, 7, 7);
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.display {
+    margin-top: 2rem;
+    color: aliceblue;
+}
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    color:aliceblue;
+}
+.display article {
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+@media screen and (min-width: 768px) {
+    .form {
+         width: 40%;
+    }
+    .display {
+        width: 60%;
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+    section {
+        display: flex;
+    }
+}
+.card {
+    border: 2px solid rgb(235, 7, 53);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+.card-body {
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.email {
+    text-transform: lowercase;
+    color: aliceblue;
+}
+.Date of Birth {
+    text-transform: lowercase;
+    color: aliceblue;
+}
+.image img {
+    width: 150px;
+    height: 150px;
+    color: aliceblue;
+}
